@@ -1,75 +1,115 @@
 <template xmlns="http://www.w3.org/1999/html">
   <div id="app">
 
-    <div class="container " >
+    <div class="container ">
+      <div class="row " style="color:white !important;" id="navbar">
+        <!--        <nav class="navbar navbar-expand-lg navbar-light  navbar-fixed-top" style="background-color:rgba(3, 169, 244, 1);padding-bottom: 30px;">
+                  <a class="navbar-brand" href="#">
+                    <img src="./assests/sample_logo.png" class="img-fluid" alt="Responsive image">قانون‌بان</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
 
-      <div id="navbar">
-        <nav class="navbar navbar-expand-lg navbar-light " style="background-color:rgba(3, 169, 244, 1);">
-          <a class="navbar-brand" href="#">
-            <img src="./assests/sample_logo.png" class="img-fluid" alt="Responsive image">قانون‌بان</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ">
-              <li>
-                <h1>.</h1>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"> تکالیف قانونی زمان دار</a>
-              </li>
+                      <lo class="nav-item">
+                        <a class="nav-link" href="#"> تکالیف قانونی زمان دار</a>
+                      </lo>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"> قوانین زمان گذشته</a>
-              </li>
+                      <lo class="nav-item">
+                        <a class="nav-link" href="#"> قوانین زمان گذشته</a>
+                      </lo>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"> درباره قانون‌بان </a>
-              </li>
+                      <lo class="nav-item">
+                        <a class="nav-link" href="#"> درباره قانون‌بان </a>
+                      </lo>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"> قوانین انجام شده </a>
-              </li>
+                      <lo class="nav-item">
+                        <button class="nav-link" href="#"> قوانین انجام شده </button>
+                      </lo>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"> جست و جوی قانون </a>
-              </li>
+                      <lo class="nav-item">
+                        <a class="nav-link" href="#"> جست و جوی قانون </a>
+                      </lo>
 
-            </ul>
-            <form class="form-inline my-2 my-lg-0 mr-auto">
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0 mr-auto">
 
-              <button
-                class="btn  my-2 my-sm-0 " type="submit"
-                style="
-                  top: 28px;
-                  left: 93px;
-                  height: 35px;
-                  width: 174px;
-                  background-color: rgba(255, 192, 6, 1);
-                  border-radius: 18px;">
-                ثبت تکلیف قانونی جدید
+                      <button
+                        class="btn  my-2 my-sm-0 " type="submit"
+                        style="
+                        align-items: flex-start;
+                          top: 28px;
+                          left: 93px;
+                          height: 35px;
+                          width: 174px;
+                          background-color: rgba(255, 192, 6, 1);
+                          border-radius: 18px;">
+                        ثبت تکلیف قانونی جدید
+                      </button>
+                    </form>
+                  </div>
+                </nav>-->
+        <nav class="navbar navbar-default navbar-fixed-top navbar-light" id="navbar-top">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                      data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
               </button>
-            </form>
-          </div>
-        </nav>
+              <a class="navbar-brand" href="#">
+                <img alt="Brand" src="./assests/sample_logo.png" class="img-responsive">
+                <h5> قانون‌بان
+                  <br>
+                  <small> سامانه رصد قوانین زمان‌دار</small>
+                </h5>
+              </a>
 
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>-->
+                <li><a href="#">تکالیف قانونی زمان دار</a></li>
+                <li><a href="#">قوانین زمان گذشته</a></li>
+                <li><a href="#">درباره قانون‌بان</a></li>
+                <li><a href="#">قوانین انجام شده</a></li>
+                <li><a href="#">جست و جوی قانون</a></li>
+
+              </ul>
+              <form class="navbar-form navbar-left">
+                <button id="btn_creatNewJob" type="submit" class="btn btn-default">ثبت تکلیف قانونی جدید</button>
+              </form>
+              <ul class="nav navbar-nav navbar-right">
+
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container -->
+        </nav>
       </div>
 
-      <div id="banner">
+      <div id="banner" style="background-color: rgba(3, 169, 244, 1);">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6">
             <div style="
-                  top: 0px;
+                  padding-top: 30px;
                   left: 0px;
                   height: 248px;
                   width: 100%;
                   background-color: rgba(3, 169, 244, 1);">
               <!--<img src="./assests/" alt="">-->
               <div id="banner-content" style="color: rgba(255, 255, 255, 1);text-align: center">
-                <h1 style="font-family: 'IRANSans';text-align: center;"> قانون‌بان </h1>
-                <h3>سامانه رصد تکالیف قانونی زمان‌دار</h3>
+                <h1> قانون‌بان </h1>
+                <small>سامانه رصد تکالیف قانونی زمان‌دار</small>
+
                 <p>
                   سایت قوانین زماندار درصدد است با جمع آوری مصادیق این قوانین و اعلام فرصت باقی مانده برای اجرای آنها و
                   یا
@@ -82,70 +122,81 @@
 
 
           </div>
+          <div class="col-lg-3"></div>
 
         </div>
       </div>
 
       <div id="creatFilter">
         <div class="row">
-          <div>
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6" style="text-align: center; color: rgba(74, 74, 74, 1);">
             <h2> ایجاد فیلتر نمایش </h2>
+            <div class="row">
+              <div class="col-lg-1"></div>
 
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                منبع تکلیف
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">منبع تکلیف ۱</a>
-                <a class="dropdown-item" href="#"> منبع تکلیف ۲</a>
-                <a class="dropdown-item" href="#"> منبع تکلیف ۳</a>
+              <div class="col-lg-3">
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    منبع تکلیف
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#">منبع تکلیف ۱</a></li>
+                    <li><a href="#">منبع تکلیف ۲</a></li>
+                    <li><a href="#">منبع تکلیف ۳</a></li>
+                  </ul>
+                </div>
               </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3">
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
-                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                منبع تکلیف
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">منبع تکلیف ۱</a>
-                <a class="dropdown-item" href="#"> منبع تکلیف ۲</a>
-                <a class="dropdown-item" href="#"> منبع تکلیف ۳</a>
+              <div class="col-lg-3">
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    مجری تکلیف <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><a href="#">مجری تکلیف ۱</a></li>
+                    <li><a href="#">مجری تکلیف ۲</a></li>
+                    <li><a href="#">مجری تکلیف ۳</a></li>
+                  </ul>
+                </div>
               </div>
-            </div>
-          </div>
-
-          <div class="btn-group" role="group" aria-label="...">
-
-            <div class="btn-group" role="group">
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                      aria-expanded="false">
-                Dropdown
-                <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="#">Dropdown link</a></li>
-                <li><a href="#">Dropdown link</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="row ">
-              <div>
-                <h4> این فیلتر روی تمامی تکالیف قانونی سایت اعمال می شود </h4>
-                <button class="btn btn-link">حذف فیلتر</button>
-                <button class="btn btn-sucsess">اعمال فیلتر</button>
+              <div class="col-lg-3">
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    تاریخ تصویب <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                    <li><a href="#">تاریخ تصویب ۱</a></li>
+                    <li><a href="#">تاریخ تصویب ۲</a></li>
+                    <li><a href="#">تاریخ تصویب ۳</a></li>
+                  </ul>
+                </div>
               </div>
+
+              <div class="col-lg-1"></div>
+
             </div>
+
+            <div>
+              <h6 style="text-align: right;color: rgba(33, 150, 243, 1);;">
+                *این فیلتر روی تمامی تکالیف قانونی سایت اعمال می شود
+                <button class="btn btn-link" style="color: rgba(95, 95, 95, 1);">حذف فیلتر</button>
+                <button class="btn btn-sucsess"
+                  style="background-color: rgba(3, 169, 244, 1);
+                  border-radius: 15px;color: white;">
+                  اعمال فیلتر
+                </button>
+              </h6>
+
+            </div>
+
           </div>
+          <div class="col-lg-3"></div>
+
+
         </div>
 
 
@@ -177,13 +228,15 @@
         </div>
       </div>
 
-      <div id="creatJob" >
-        <div class="row" >
+      <div id="creatJob">
+        <div class="row">
           <div class="col-offset-2 col-md-8 " style="text-align: center;">
             <h3>ثبت تکلیف قانونی جدید</h3>
             <p>
-              بسیاری از قوانین و مقررات مصوب مجلس و سایر نهادهای تصمیم گیر در ظرف زمانی مشخص طرح و تصویب می شوند. و طبیعتا
-              برای اثرگذاری مطلوب باید در مدت مشخصی اجرایی شوند به همین دلیل است که قانونگذار برای اجرای آنها زمان مشخصی
+              بسیاری از قوانین و مقررات مصوب مجلس و سایر نهادهای تصمیم گیر در ظرف زمانی مشخص طرح و تصویب می شوند. و
+              طبیعتا
+              برای اثرگذاری مطلوب باید در مدت مشخصی اجرایی شوند به همین دلیل است که قانونگذار برای اجرای آنها زمان
+              مشخصی
               در نظر میگیرد.
 
             </p>
@@ -203,7 +256,6 @@
           </div>
 
         </div>
-
 
 
       </div>
@@ -309,7 +361,8 @@
               </div>
               <div class="media-body">
                 <h4 class="media-heading">تابناک</h4>
-                جمع‌نویسی اولین و تنها سامانه ای است که به اصلاح و بهبود قانون اساسی اهمیت می دهد..              </div>
+                جمع‌نویسی اولین و تنها سامانه ای است که به اصلاح و بهبود قانون اساسی اهمیت می دهد..
+              </div>
             </div>
 
             <div class="media">
@@ -320,24 +373,25 @@
               </div>
               <div class="media-body">
                 <h4 class="media-heading">تویتر فارسی</h4>
-                مطالب میتونه حتی کوتاه تر هم باشه اما به هر حال دو خط هست دیگه              </div>
+                مطالب میتونه حتی کوتاه تر هم باشه اما به هر حال دو خط هست دیگه
+              </div>
             </div>
 
           </div>
 
           <div class="col-md-2">
-<h3> لینک ها</h3>
+            <h3> لینک ها</h3>
             <hr>
             <ul class="">
-              <lo class=""><a href="">قوانین زمان دار </a> </lo>
+              <lo class=""><a href="">قوانین زمان دار </a></lo>
               <lo class=""><a href="">قوانین زمان گذشته</a></lo>
-              <lo class=""><a href="">درباره قانون‌بان</a> </lo>
+              <lo class=""><a href="">درباره قانون‌بان</a></lo>
               <lo class=""><a href="">قوانین انجام شده</a></lo>
             </ul>
           </div>
 
           <div class="col-md-5">
-<h3>آخرین نظرات ثبت شده در قانون ها</h3>
+            <h3>آخرین نظرات ثبت شده در قانون ها</h3>
             <hr>
 
           </div>
@@ -363,6 +417,12 @@
 </script>
 
 <style>
+  #app {
+    padding-top: 30px;
+    color: white !important;
+
+  }
+
   .p {
     color: black;
     text-align: justify;
@@ -371,4 +431,26 @@
     font-family: IRANSans !important;
   }
 
+  #btn_creatNewJob {
+    align-items: flex-start;
+    top: 28px;
+    left: 93px;
+    height: 35px;
+    width: 174px;
+    background-color: rgba(255, 192, 6, 1);
+    border-radius: 18px;
+  }
+
+  #navbar-top {
+    /*position: absolute;*/
+    /*top: 33px;*/
+    /*left: 377px;*/
+    /*height: 25px;*/
+    /*width: 654px;*/
+    font-size: 12px;
+    color: white !important;
+    background-color: rgba(3, 169, 244, 1);
+    text-align: center;
+    align-items: center;
+  }
 </style>

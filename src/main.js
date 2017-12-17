@@ -8,3 +8,5 @@ new Vue({
   render: h => h(App),
 
 })
+
+Vue.config.devtools = true;
