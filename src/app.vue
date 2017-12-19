@@ -2,7 +2,7 @@
   <div id="app">
 
     <div class="container ">
-      <div class="row " style="color:white !important;" id="navbar">
+      <div id="navbar" class="row " style="color:white !important;" >
         <!--        <nav class="navbar navbar-expand-lg navbar-light  navbar-fixed-top" style="background-color:rgba(3, 169, 244, 1);padding-bottom: 30px;">
                   <a class="navbar-brand" href="#">
                     <img src="./assests/sample_logo.png" class="img-fluid" alt="Responsive image">قانون‌بان</a>
@@ -127,7 +127,7 @@
         </div>
       </div>
 
-      <div id="creatFilter">
+      <div id="creatFilter" >
         <div class="row">
           <div class="col-lg-3"></div>
           <div class="col-lg-6" style="text-align: center; color: rgba(74, 74, 74, 1);">
@@ -142,7 +142,7 @@
                     منبع تکلیف
                     <span class="caret"></span>
                   </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
                     <li><a href="#">منبع تکلیف ۱</a></li>
                     <li><a href="#">منبع تکلیف ۲</a></li>
                     <li><a href="#">منبع تکلیف ۳</a></li>
@@ -151,7 +151,7 @@
               </div>
               <div class="col-lg-3">
                 <div class="dropdown">
-                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3"
                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     مجری تکلیف <span class="caret"></span>
                   </button>
@@ -164,7 +164,7 @@
               </div>
               <div class="col-lg-3">
                 <div class="dropdown">
-                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu0"
                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     تاریخ تصویب <span class="caret"></span>
                   </button>
@@ -202,35 +202,38 @@
 
       </div>
 
-      <div id="sumery" style="background-color: rgba(3, 169, 244, 1);color:rgba(255, 255, 255, 1);">
+      <div id="sumery" style="background-color: rgba(3, 169, 244, 1);color:rgba(255, 255, 255, 1); text-align: center">
         <div class="row">
-
+<div class="col-md-2"></div>
           <div class="col-md-2">
-            <h4>111</h4>
+            <h2>۱۱۱</h2>
             <h5 class="subtitle"> تکلیف قانونی ثبت شده</h5>
           </div>
 
           <div class="col-md-2">
-            <h4>222</h4>
+            <h2>۲۲۲</h2>
             <h5 class="subtitle">تکالیف منتظر انجام</h5>
           </div>
 
           <div class="col-md-2">
-            <h4>333</h4>
+            <h2>۳۳۳</h2>
             <h5 class="subtitle">تکلیف قانونی تاخیر شده</h5>
           </div>
 
           <div class="col-md-2">
-            <h4>444</h4>
+            <h2>۴۴۴</h2>
             <h5 class="subtitle">تکلیف قانونی انجام شده</h5>
           </div>
+          <div class="col-md-2"></div>
 
         </div>
       </div>
 
-      <div id="creatJob">
+      <div id="creatJob" style="color: black;padding: 20px">
         <div class="row">
-          <div class="col-offset-2 col-md-8 " style="text-align: center;">
+          <div class="col-md-2"></div>
+
+          <div class=" col-md-8 " style="text-align: center;">
             <h3>ثبت تکلیف قانونی جدید</h3>
             <p>
               بسیاری از قوانین و مقررات مصوب مجلس و سایر نهادهای تصمیم گیر در ظرف زمانی مشخص طرح و تصویب می شوند. و
@@ -249,93 +252,78 @@
                   height: 35px;
                   width: 174px;
                   background-color: rgba(41, 182, 246, 1);
-                  border-radius: 18px;">
+                  border-radius: 18px;
+color: white">
                 ثبت تکلیف قانونی جدید
               </button>
             </div>
           </div>
 
+          <div class="col-md-2"></div>
+
         </div>
 
 
       </div>
 
-      <div id="contactUs" style="background-color: black;color: white">
-        <div class="row">
+      <div id="contactUs" style="background-color: black;color: white;background-image:url('/src/assests/contactus.jpg');background-repeat: no-repeat;padding: 7px;">
+      <div class="row">
+        <div class="col-md-2">
+          <div style="display: inline-block;vertical-align: middle;float: none;">
+            <h5><img src="./assests/customer_service_icon.svg" alt="telIcon">تلفن تماس: </h5>
+            <h6> ۰۲۱ ۳۲۳۴ ۲۴۴ ۴ </h6>
 
-          <div class="row">
-            <h3>ارتباط با ما</h3>
-            <br/>
-            <h5>در قانون‌بان، همیشه منتظر پیشنهادات شما هستیم</h5>
+            <h5><img src="./assests/mail_icon.svg" alt="telIcon">پست الکترنیک: </h5>
+            <h6> Info@Jamnevisi.ir </h6>
           </div>
-          <hr>
+        </div>
+        <div class="col-md-2">
+          <!--just for offset-->
+        </div>
+        <div class="col-md-6" style="padding-top: 20px;">
+          <div >
 
-          <div class="row ">
-            <div class="row">
-              <div class="col-md-2" style="display: inline-block;vertical-align: middle;float: none;">
-                <h5><img src="./assests/customer_service_icon.svg" alt="telIcon">تلفن تماس: </h5>
-                <h6> ۰۲۱ ۳۲۳۴ ۲۴۴ ۴ </h6>
+            <input type="text" placeholder="نام و نام خانوادگی" aria-describedby="basic-addon1" class="contactUsText">
+            <br>
+            <br>
+            <input type="tel" placeholder=" موبایل " aria-describedby="basic-addon1" class="contactUsText">
+            <input type="email" placeholder="پست الکترونیک" aria-describedby="basic-addon1" class="contactUsText">
+            <br>
+            <br>
+            <textarea name="comment" placeholder="پیغام خود را اینجا بنویسید" cols="30" rows="10" style="background-color: inherit;border-color:transparent;"></textarea>
+            <br>
+          </div>
 
-                <h5><img src="./assests/mail_icon.svg" alt="telIcon">پست الکترنیک: </h5>
-                <h6> Info@Jamnevisi.ir </h6>
-
-              </div>
-
-              <div class="col-md-2">
-                <input type="text" placeholder="نام و نام خانوادگی" aria-describedby="basic-addon1">
-                <input type="tel" placeholder=" موبایل " aria-describedby="basic-addon1">
-              </div>
-
-              <div class="col-md-2">
-                <input type="email" placeholder="پست الکترونیک" aria-describedby="basic-addon1">
-              </div>
-
-            </div>
-
-
-            <div class="row">
-              <div class="row">
-                <div>
-                  <textarea name="comment" placeholder="پیغام خود را اینجا بنویسید" cols="30" rows="10"></textarea>
-                </div>
-
-              </div>
-
-              <div class="row">
-                <div>
-                  <button class="btn " style="top: 28px;
+          <div style="text-align: left">
+            <button class="btn " style="top: 28px;
                     left: 93px;
-                    height: 35px;
-                    width: 174px;
                     background-color: rgb(41, 182, 246);
-                    border-radius: 18px;color: white;">ارسال پیام
-                  </button>
-                </div>
-
-              </div>
-
-            </div>
+                    border-radius: 18px;
+                    color: white;
+">ارسال پیام
+            </button>
           </div>
+
+
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      </div>
+
+      <div id="mapAdress" style="background-image:url('/src/assests/acf-google-map-field-input.png');background-color: rgba(179, 229, 252, 1);color: black">
+        <div class="row" style="text-align: center;padding: 20px;">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <span><img src="./assests/location_icon.svg" alt="locationIcon"></span>
+            <h3> دفتر مرکزی جمع‌نویسی </h3>
+            <h5 class="disable"> تهران، خیابان جردن، گلستان ۲۳، پلاک ۵ </h5>
+          </div>
+          <div class="col-md-4"></div>
 
         </div>
       </div>
 
-      <div id="mapAdress" style="background-color: rgba(179, 229, 252, 1);color: black">
-        <div class="row">
-          <div>
-            <img src="./assests/acf-google-map-field-input.png" alt="mapAdress">
-            <div>
-              <span><img src="./assests/location_icon.svg" alt="locationIcon"></span>
-              <h3> دفتر مرکزی جمع‌نویسی </h3>
-              <h5 class="disable"> تهران، خیابان جردن، گلستان ۲۳، پلاک ۵ </h5>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="footer" id="footer">
+      <div class="footer" id="footer" style="background-color: rgba(74, 74, 74, 1);text-align:right;padding-right: 10px;">
         <div class="row">
           <div class="col-md-3">
             <h3>قانون‌بان در رسانه ها</h3>
@@ -452,5 +440,9 @@
     background-color: rgba(3, 169, 244, 1);
     text-align: center;
     align-items: center;
+  }
+  .contactUsText{
+    background-color: inherit;
+    border-color: transparent
   }
 </style>
