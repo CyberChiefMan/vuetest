@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="15px" viewBox="0 0 11 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>go to top icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home-Pgae" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HomePage-1.0-A" transform="translate(-1262.000000, -2022.000000)" fill="#FFFFFF">
+            <g id="Section-L" transform="translate(0.000000, 1999.000000)">
+                <g id="To-top" transform="translate(1188.000000, 23.000000)">
+                    <g id="go-to-top-icon" transform="translate(74.000000, 0.000000)">
+                        <path d="M2.64843315,2.37031995 C2.8583857,2.15977598 3.18898704,2.15977598 3.39893959,2.37031995 C3.60238657,2.57376693 3.60238657,2.91087384 3.39893959,3.11432082 L-0.408002863,6.92126327 L12.1548481,6.92126327 C12.4481903,6.92126327 12.688305,7.15487245 12.688305,7.44584894 C12.688305,7.7391911 12.4481903,7.97930585 12.1548481,7.97930585 L-0.408002863,7.97930585 L3.39893959,11.7797427 C3.60238657,11.9896953 3.60238657,12.3297593 3.39893959,12.5308406 C3.18898704,12.7407931 2.8583857,12.7407931 2.64843315,12.5308406 L-2.05982674,7.82258071 C-2.26327372,7.61913373 -2.26327372,7.28202681 -2.05982674,7.07857983 L2.64843315,2.37031995 Z" id="Fill-1" transform="translate(5.237947, 7.450358) scale(-1, 1) rotate(-270.000000) translate(-5.237947, -7.450358) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
