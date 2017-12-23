@@ -1,8 +1,9 @@
 <template xmlns="http://www.w3.org/1999/html">
-  <div id="app">
+  <div id="app" class="container-fluid">
 
-    <div class="container ">
-      <div id="navbar" class="row " style="color:white !important;" >
+
+    <div class="container-fluid ">
+      <div id="navbar" class="row " style="color:white !important;">
         <!--        <nav class="navbar navbar-expand-lg navbar-light  navbar-fixed-top" style="background-color:rgba(3, 169, 244, 1);padding-bottom: 30px;">
                   <a class="navbar-brand" href="#">
                     <img src="./assests/sample_logo.png" class="img-fluid" alt="Responsive image">قانون‌بان</a>
@@ -94,40 +95,43 @@
           </div><!-- /.container -->
         </nav>
       </div>
+      <Banner></Banner>
+      <!--
+            <div id="banner"  style="background-color: rgba(3, 169, 244, 1);">
+              <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                  <div style="
+                        padding-top: 30px;
+                        left: 0px;
+                        height: 248px;
+                        width: 100%;
+                        background-color: rgba(3, 169, 244, 1);">
+                    &lt;!&ndash;<img src="./assests/" alt="">&ndash;&gt;
+                    <div id="banner-content" style="color: rgba(255, 255, 255, 1);text-align: center">
+                      <h1> قانون‌بان </h1>
+                      <small>سامانه رصد تکالیف قانونی زمان‌دار</small>
+                      <br>
+                      <br>
+                      <p>
+                        سایت قوانین زماندار درصدد است با جمع آوری مصادیق این قوانین و اعلام فرصت باقی مانده برای اجرای آنها و
+                        یا
+                        احیانا زمانی که از اجرای آنها گذشته است، افکار عمومی را نسبت به اجرایی شدن این قوانین حساس کرده و
+                        زمینه
+                        مطالبه اجرای آنها را ایجاد کند.
+                      </p>
+                    </div>
+                  </div>
 
-      <div id="banner" style="background-color: rgba(3, 169, 244, 1);">
-        <div class="row">
-          <div class="col-lg-3"></div>
-          <div class="col-lg-6">
-            <div style="
-                  padding-top: 30px;
-                  left: 0px;
-                  height: 248px;
-                  width: 100%;
-                  background-color: rgba(3, 169, 244, 1);">
-              <!--<img src="./assests/" alt="">-->
-              <div id="banner-content" style="color: rgba(255, 255, 255, 1);text-align: center">
-                <h1> قانون‌بان </h1>
-                <small>سامانه رصد تکالیف قانونی زمان‌دار</small>
 
-                <p>
-                  سایت قوانین زماندار درصدد است با جمع آوری مصادیق این قوانین و اعلام فرصت باقی مانده برای اجرای آنها و
-                  یا
-                  احیانا زمانی که از اجرای آنها گذشته است، افکار عمومی را نسبت به اجرایی شدن این قوانین حساس کرده و
-                  زمینه
-                  مطالبه اجرای آنها را ایجاد کند.
-                </p>
+                </div>
+                <div class="col-lg-3"></div>
+
               </div>
             </div>
+      -->
 
-
-          </div>
-          <div class="col-lg-3"></div>
-
-        </div>
-      </div>
-
-      <div id="creatFilter" >
+      <div id="creatFilter">
         <div class="row">
           <div class="col-lg-3"></div>
           <div class="col-lg-6" style="text-align: center; color: rgba(74, 74, 74, 1);">
@@ -202,7 +206,7 @@
 
       </div>
 
-      <div id="sumery" style="background-color: rgba(3, 169, 244, 1);color:rgba(255, 255, 255, 1); text-align: center">
+      <div id="summary" style="background-color: rgba(3, 169, 244, 1);color:rgba(255, 255, 255, 1); text-align: center">
         <div class="row">
           <div class="col-md-2"></div>
           <div class="col-md-2">
@@ -266,7 +270,8 @@ color: white">
 
       </div>
 
-      <div id="contactUs" style=" background-color: black;color: white;background-image:url('/src/assests/contactus.jpg');background-repeat: no-repeat;background-size:auto; padding: 7px;">
+      <div id="contactUs"
+           style=" background-color: black;color: white;background-image:url('/src/assests/contactus.jpg');background-repeat: no-repeat;background-size:auto; padding: 7px;">
         <div class="row">
           <div style="text-align: center">
             <h4>ارتباط با ما</h4>
@@ -286,7 +291,7 @@ color: white">
             <!--just for offset-->
           </div>
           <div class="col-md-6" style="padding-top: 20px;">
-            <div >
+            <div>
 
               <input type="text" placeholder="نام و نام خانوادگی" aria-describedby="basic-addon1" class="contactUsText">
               <br>
@@ -295,7 +300,8 @@ color: white">
               <input type="email" placeholder="پست الکترونیک" aria-describedby="basic-addon1" class="contactUsText">
               <br>
               <br>
-              <textarea name="comment" placeholder="پیغام خود را اینجا بنویسید" cols="30" rows="10" style="background-color: inherit;border-color:transparent;"></textarea>
+              <textarea name="comment" placeholder="پیغام خود را اینجا بنویسید" cols="30" rows="10"
+                        style="background-color: inherit;border-color:transparent;"></textarea>
               <br>
             </div>
 
@@ -315,7 +321,8 @@ color: white">
         </div>
       </div>
 
-      <div id="mapAdress" style="background-image:url('/src/assests/acf-google-map-field-input.png');background-color: rgba(179, 229, 252, 1);color: black">
+      <div id="mapAdress"
+           style="background-image:url('/src/assests/acf-google-map-field-input.png');background-color: rgba(179, 229, 252, 1);color: black">
         <div class="row" style="text-align: center;padding: 20px;">
           <div class="col-md-4"></div>
           <div class="col-md-4">
@@ -328,7 +335,8 @@ color: white">
         </div>
       </div>
 
-      <div id="footer" class="footer"  style="background-color: rgba(74, 74, 74, 1);text-align:right;padding-right: 10px;">
+      <div id="footer" class="footer"
+           style="background-color: rgba(74, 74, 74, 1);text-align:right;padding-right: 10px;">
         <div class="row">
           <div class="col-md-3">
             <h3>قانون‌بان در رسانه ها</h3>
@@ -390,20 +398,23 @@ color: white">
               <h6 style="text-align: right;color: rgba(41, 182, 246, 1);">دسترسی باز به اطلاعات</h6>
               <h6 style="text-align: left;color: rgba(41, 182, 246, 1);">۲۴ مهر ۱۳۹۶ </h6>
               <p>
-                میتونه خلاصه ای از آخرین اصلاحیه یا کامنتی که کاربران درباره این قانون نوشتن رو اینجا نشون بده، در واقع این بخش برای ایجاد سئو و.. در فوتر گذاشته می شود
+                میتونه خلاصه ای از آخرین اصلاحیه یا کامنتی که کاربران درباره این قانون نوشتن رو اینجا نشون بده، در واقع
+                این بخش برای ایجاد سئو و.. در فوتر گذاشته می شود
               </p>
             </div>
             <div>
               <h6 style="text-align: right;color: rgba(41, 182, 246, 1);">نام قانون در این بخش نمایش داده می شود</h6>
               <h6 style="text-align: left;color: rgba(41, 182, 246, 1);">۲۴ مهر ۱۳۹۶ </h6>
               <p>
-                میتونه خلاصه ای از آخرین اصلاحیه یا کامنتی که کاربران درباره این قانون نوشتن رو اینجا نشون بده، در واقع این بخش برای ایجاد سئو و.. در فوتر گذاشته می شود              </p>
+                میتونه خلاصه ای از آخرین اصلاحیه یا کامنتی که کاربران درباره این قانون نوشتن رو اینجا نشون بده، در واقع
+                این بخش برای ایجاد سئو و.. در فوتر گذاشته می شود </p>
             </div>
             <div>
               <h6 style="text-align: right;color: rgba(41, 182, 246, 1);">عنوان ها ی درج شده مختلف هستند</h6>
               <h6 style="text-align: left;color: rgba(41, 182, 246, 1);">۲۴ مهر ۱۳۹۶ </h6>
               <p>
-                میتونه خلاصه ای از آخرین اصلاحیه یا کامنتی که کاربران درباره این قانون نوشتن رو اینجا نشون بده، در واقع این بخش برای ایجاد سئو و.. در فوتر گذاشته می شود              </p>
+                میتونه خلاصه ای از آخرین اصلاحیه یا کامنتی که کاربران درباره این قانون نوشتن رو اینجا نشون بده، در واقع
+                این بخش برای ایجاد سئو و.. در فوتر گذاشته می شود </p>
             </div>
           </div>
         </div>
@@ -412,23 +423,23 @@ color: white">
 
       <div id="copywrite" class="row">
         <div class="col-md-2">
-<h6><img src='./assests/go_to_top_icon.svg' alt="">ابتدای صفحه</h6>
+          <h6><img src='./assests/go_to_top_icon.svg' alt="">ابتدای صفحه</h6>
         </div>
         <div class="col-md-2">
-<!--just for offset-->
+          <!--just for offset-->
         </div>
-<div class="col-md-5">
-<h6>
-  تمامی حقوق این وب سایت متعلق به مجموعه قانون‌بان می باشد
-</h6>
-  © 2017 all Rights Reserved by GhanoonBaan
+        <div class="col-md-5">
+          <h6>
+            تمامی حقوق این وب سایت متعلق به مجموعه قانون‌بان می باشد
+          </h6>
+          © 2017 all Rights Reserved by GhanoonBaan
 
-</div>
+        </div>
         <div class="col-md-1"></div>
         <div class="col-md-2">
-<button class="btn-copywrite"><img src='./assests/twitter_logo.svg' alt=""></button>
-<button class="btn-copywrite"><img src='./assests/aparat_logo.svg' alt=""></button>
-<button class="btn-copywrite"><img src='./assests/telegram_logo.svg' alt=""></button>
+          <button class="btn-copywrite"><img src='./assests/twitter_logo.svg' alt=""></button>
+          <button class="btn-copywrite"><img src='./assests/aparat_logo.svg' alt=""></button>
+          <button class="btn-copywrite"><img src='./assests/telegram_logo.svg' alt=""></button>
         </div>
       </div>
 
@@ -440,8 +451,27 @@ color: white">
 </template>
 
 <script>
+  import ContactUs from './components/ContactUs.vue'
+  import Copywrite from './components/Copywrite.vue'
+  import CreatJob from './components/CreatJob.vue'
+  import Footer from './components/Footer.vue'
+  import MapAdress from './components/MapAdress.vue'
+  import Navbar from './components/Navbar.vue'
+  import Summary from './components/Summary.vue'
+  import Banner from './components/‌Banner.vue'
   export default{
     name: 'app',
+    components: {
+      ContactUs,
+      Copywrite,
+      CreatJob,
+      Footer,
+      MapAdress,
+      Navbar,
+      Summary,
+      Banner,
+
+    },
     data(){
       return {}
     }
@@ -486,16 +516,19 @@ color: white">
     text-align: center;
     align-items: center;
   }
-  .contactUsText{
+
+  .contactUsText {
     background-color: inherit;
     border-color: transparent
   }
- #copywrite{
-  background-color: rgba(33, 150, 243, 1);
-   text-align:center;
-   padding-top:5px;
+
+  #copywrite {
+    background-color: rgba(33, 150, 243, 1);
+    text-align: center;
+    padding-top: 5px;
   }
-  .btn-copywrite{
+
+  .btn-copywrite {
     text-align: center;
     background-color: inherit;
     border-color: transparent;
