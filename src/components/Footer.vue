@@ -49,10 +49,10 @@
         <h3> لینک ها</h3>
         <hr>
         <ul class="">
-          <lo class=""><a href="">قوانین زمان دار </a></lo>
-          <lo class=""><a href="">قوانین زمان گذشته</a></lo>
-          <lo class=""><a href="">درباره قانون‌بان</a></lo>
-          <lo class=""><a href="">قوانین انجام شده</a></lo>
+          <li class=""><a href="">قوانین زمان دار </a></li>
+          <li class=""><a href="">قوانین زمان گذشته</a></li>
+          <li class=""><a href="">درباره قانون‌بان</a></li>
+          <li class=""><a href="">قوانین انجام شده</a></li>
         </ul>
       </div>
 

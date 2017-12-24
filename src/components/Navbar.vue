@@ -60,8 +60,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">
-            <img alt="Brand" src="src/assests/sample_logo.png" class="img-responsive">
+          <a class="navbar-brand" href="#" style="">
+            <img alt="Brand" src="src/assests/sample_logo.png" >
             <h5> قانون‌بان
               <br>
               <small> سامانه رصد قوانین زمان‌دار</small>
@@ -84,9 +84,7 @@
           <form class="navbar-form navbar-left">
             <button id="btn_creatNewJob" type="submit" class="btn btn-default">ثبت تکلیف قانونی جدید</button>
           </form>
-          <ul class="nav navbar-nav navbar-right">
 
-          </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
     </nav>
