@@ -62,7 +62,7 @@
           </button>
           <a class="navbar-brand" href="#" style="">
             <img alt="Brand" src="src/assests/sample_logo.png" >
-            <h5> قانون‌بان
+            <h5 > قانون‌بان
               <br>
               <small> سامانه رصد قوانین زمان‌دار</small>
             </h5>
@@ -102,3 +102,12 @@
     }
   }
 </script>
+<style scoped>
+  navbar-top{
+    font-family: 'IRANSans';
+    font-size: 22px;
+    color: white !important;
+    text-align: center;
+  }
+
+</style>
