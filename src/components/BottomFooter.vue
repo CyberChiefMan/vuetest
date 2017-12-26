@@ -1,6 +1,6 @@
 <template>
 
-  <div id="Footer" class="footer"
+  <div id="BottomFooter" class="footer"
        style="background-color: rgba(74, 74, 74, 1);text-align:right;padding-right: 10px;">
     <div class="row">
       <div class="col-md-3">
@@ -90,7 +90,7 @@
 
 <script>
   export default{
-    name: 'Footer',
+    name: 'BottomFooter',
     date(){
       return {
 

@@ -15,7 +15,7 @@
 
       <MapAdress></MapAdress>
 
-      <Footer></Footer>
+      <BottomFooter></BottomFooter>
 
       <Copywrite></Copywrite>
 
@@ -31,7 +31,7 @@
   import Copywrite from './components/Copywrite.vue'
   import CreateFilter from './components/CreateFilter.vue'
   import CreatJob from './components/CreatJob.vue'
-  import Footer from './components/Footer.vue'
+  import BottomFooter from './components/BottomFooter.vue'
   import MapAdress from './components/MapAdress.vue'
   import Navbar from './components/Navbar.vue'
   import Summary from './components/Summary.vue'
@@ -43,7 +43,7 @@
       CreateFilter,
       Copywrite,
       CreatJob,
-      Footer,
+      BottomFooter,
       MapAdress,
       Navbar,
       Summary,

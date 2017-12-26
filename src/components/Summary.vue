@@ -1,25 +1,25 @@
 <template>
-  <div id="Summary" style="background-color: rgba(3, 169, 244, 1);color:rgba(255, 255, 255, 1); text-align: center">
+  <div id="Summary" >
     <div class="row">
       <div class="col-md-2"></div>
       <div class="col-md-2">
-        <h2>۱۱۱</h2>
-        <h5 class="subtitle"> تکلیف قانونی ثبت شده</h5>
+        <h1>۱۱۱</h1>
+        <h4> تکلیف قانونی ثبت شده</h4>
       </div>
 
       <div class="col-md-2">
-        <h2>۲۲۲</h2>
-        <h5 class="subtitle">تکالیف منتظر انجام</h5>
+        <h1>۲۲۲</h1>
+        <h4>تکالیف منتظر انجام</h4>
       </div>
 
       <div class="col-md-2">
-        <h2>۳۳۳</h2>
-        <h5 class="subtitle">تکلیف قانونی تاخیر شده</h5>
+        <h1>۳۳۳</h1>
+        <h4>تکلیف قانونی تاخیر شده</h4>
       </div>
 
       <div class="col-md-2">
-        <h2>۴۴۴</h2>
-        <h5 class="subtitle">تکلیف قانونی انجام شده</h5>
+        <h1>۴۴۴</h1>
+        <h4>تکلیف قانونی انجام شده</h4>
       </div>
       <div class="col-md-2"></div>
 
@@ -38,3 +38,23 @@
     }
   }
 </script>
+
+<style scope>
+
+  #Summary{
+    background-color: rgba(3, 169, 244, 1);
+    color:rgba(255, 255, 255, 1);
+    text-align: center;
+
+  }
+  h1 {
+    font-size: 72px;
+
+  }
+  h4 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+
+</style>
