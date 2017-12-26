@@ -14,8 +14,11 @@
             </a>
           </div>
           <div class="media-body">
-            <h4 class="media-heading">دیجیاتو</h4>
-            خلاصه ای متنی که آن خبرگزاری درباره شما نوشته است که لینک به مطلب در سایت آن هاست
+            <h5 class="media-heading">دیجیاتو</h5>
+            <h6 class="media-subtitle">
+              خلاصه ای متنی که آن خبرگزاری درباره شما نوشته است که لینک به مطلب در سایت آن هاست
+
+            </h6>
           </div>
         </div>
 
@@ -26,8 +29,10 @@
             </a>
           </div>
           <div class="media-body">
-            <h4 class="media-heading">تابناک</h4>
-            جمع‌نویسی اولین و تنها سامانه ای است که به اصلاح و بهبود قانون اساسی اهمیت می دهد..
+            <h5 class="media-heading">تابناک</h5>
+            <h6>
+              جمع‌نویسی اولین و تنها سامانه ای است که به اصلاح و بهبود قانون اساسی اهمیت می دهد..
+            </h6>
           </div>
         </div>
 
@@ -38,8 +43,11 @@
             </a>
           </div>
           <div class="media-body">
-            <h4 class="media-heading">تویتر فارسی</h4>
-            مطالب میتونه حتی کوتاه تر هم باشه اما به هر حال دو خط هست دیگه
+            <h5 class="media-heading">تویتر فارسی</h5>
+            <h6>
+              مطالب میتونه حتی کوتاه تر هم باشه اما به هر حال دو خط هست دیگه
+
+            </h6>
           </div>
         </div>
 
@@ -49,10 +57,10 @@
         <h3> لینک ها</h3>
         <hr>
         <ul class="">
-          <li class=""><a href="">قوانین زمان دار </a></li>
-          <li class=""><a href="">قوانین زمان گذشته</a></li>
-          <li class=""><a href="">درباره قانون‌بان</a></li>
-          <li class=""><a href="">قوانین انجام شده</a></li>
+          <lo class=""><a href="">قوانین زمان دار </a></lo>
+          <lo class=""><a href="">قوانین زمان گذشته</a><lo/>
+          <lo class=""><a href="">درباره قانون‌بان</a></lo>
+          <lo class=""><a href="">قوانین انجام شده</a></lo>
         </ul>
       </div>
 
@@ -98,3 +106,35 @@
     }
   }
 </script>
+<style scoped>
+  #BottomFooter{
+    padding-top: 15px;
+  }
+
+    h3 {
+    font-size: 24px;
+      font-weight: 300;
+  }
+
+
+
+   h6 {
+     font-size: 12px;
+     color: rgba(255, 255, 255, 1);
+     text-align: right;
+     font-weight: 300;
+  }
+    h5 {
+      font-size: 14px;
+      font-weight: bold;
+      color: rgba(41, 182, 246, 1);
+      text-align: right;
+  }
+li{
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  text-align: right;
+  line-height: 42px;
+}
+
+</style>

@@ -1,5 +1,5 @@
 <template>
-  <div id="CreatJob" style="color: black;padding: 20px">
+  <div id="CreatJob" style="padding: 20px">
     <div class="row">
       <div class="col-md-2"></div>
 
@@ -13,17 +13,11 @@
           در نظر میگیرد.
 
         </p>
+        <br>
         <div>
-          <button
+          <button id="btn-add-job"
             class="btn  my-2 my-sm-0 " type="submit"
-            style="
-                  top: 28px;
-                  left: 93px;
-                  height: 35px;
-                  width: 174px;
-                  background-color: rgba(41, 182, 246, 1);
-                  border-radius: 18px;
-color: white">
+          >
             ثبت تکلیف قانونی جدید
           </button>
         </div>
@@ -48,3 +42,26 @@ color: white">
     }
   }
 </script>
+<style scoped>
+  h3 {
+    font-size: 30px;
+    text-align: center;
+    color: rgba(74, 74, 74, 1);
+  }
+p{
+  font-size: 18px;
+  color: rgba(74, 74, 74, 1);
+  text-align: center;
+  font-weight: 300;
+}
+#btn-add-job{
+  top: 28px;
+  left: 93px;
+  height: 35px;
+  width: 174px;
+  background-color: rgba(41, 182, 246, 1);
+  border-radius: 18px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+}
+</style>

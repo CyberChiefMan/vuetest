@@ -64,23 +64,14 @@
 
   }
 
-  .p {
-    color: black;
-    text-align: justify;
-    text-indent: 3em;
-    line-height: 1.65em;
-    font-family: IRANSans !important;
-  }
+  /*.p {*/
+    /*color: black;*/
+    /*text-align: justify;*/
+    /*text-indent: 3em;*/
+    /*line-height: 1.65em;*/
+    /*font-family: IRANSans !important;*/
+  /*}*/
 
-  #btn_creatNewJob {
-    align-items: flex-start;
-    top: 28px;
-    left: 93px;
-    height: 35px;
-    width: 174px;
-    background-color: rgba(255, 192, 6, 1);
-    border-radius: 18px;
-  }
 
   #navbar-top {
     /*position: absolute;*/
@@ -95,10 +86,7 @@
     align-items: center;
   }
 
-  .contactUsText {
-    background-color: inherit;
-    border-color: transparent
-  }
+
 
   #Copywrite {
     background-color: rgba(33, 150, 243, 1);
@@ -112,4 +100,5 @@
     border-color: transparent;
     padding: 10px;
   }
+
 </style>

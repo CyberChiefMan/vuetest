@@ -5,6 +5,7 @@
       <div class="col-lg-6">
         <h3> ایجاد فیلتر نمایش </h3>
         <br>
+        <br>
         <div class="row">
 
           <div class="col-lg-4">
@@ -87,6 +88,11 @@
 </script>
 
 <style scoped>
+  #CreateFilter{
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+  }
 
   h3 {
     font-size: 30px;

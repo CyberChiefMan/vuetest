@@ -39,10 +39,10 @@
   }
 </script>
 
-<style scope>
+<style scoped>
 
   #Summary{
-    background-color: rgba(3, 169, 244, 1);
+    background-color: rgba(3, 169, 244, 1)!important;
     color:rgba(255, 255, 255, 1);
     text-align: center;
 
