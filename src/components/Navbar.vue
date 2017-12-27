@@ -1,86 +1,98 @@
 <template>
-       <nav id="navbar" class="navbar navbar-default navbar-fixed-top navbar-light" >
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                  data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#" >
-            <img alt="Brand" src="src/assests/sample_logo.png" >
-            <h4 > قانون‌بان
-              <br>
-              <h6> سامانه رصد قوانین زمان‌دار</h6>
-            </h4>
-          </a>
+  <nav id="navbar" class="navbar navbar-default navbar-fixed-top navbar-light">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div>
+          <a class="navbar-brand" href="#">
+            <img alt="Brand" src="src/assests/sample_logo.png">
 
+          </a>
+          <h4> قانون‌بان
+            <h6> سامانه رصد قوانین زمان‌دار</h6>
+          </h4>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
-          <ul class="nav navbar-nav" >
-            <!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>-->
-            <li ><a href="#" style="color: rgba(255, 255, 255, 1);">تکالیف قانونی زمان دار</a></li>
-            <li><a href="#" style="color: rgba(255, 255, 255, 1);">قوانین زمان گذشته</a></li>
-            <li><a href="#" style="color: rgba(255, 255, 255, 1);">درباره قانون‌بان</a></li>
-            <li><a href="#" style="color: rgba(255, 255, 255, 1);">قوانین انجام شده</a></li>
-            <li><a href="#" style="color: rgba(255, 255, 255, 1);">جست و جوی قانون</a></li>
+      </div>
 
-          </ul>
-          <form class="navbar-form navbar-left">
-            <button id="btn_creatNewJob" type="submit" class="btn btn-default">ثبت تکلیف قانونی جدید</button>
-          </form>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>-->
+          <li><a href="#" style="color: rgba(255, 255, 255, 1);">تکالیف قانونی زمان دار</a></li>
+          <li><a href="#" style="color: rgba(255, 255, 255, 1);">قوانین زمان گذشته</a></li>
+          <li><a href="#" style="color: rgba(255, 255, 255, 1);">درباره قانون‌بان</a></li>
+          <li><a href="#" style="color: rgba(255, 255, 255, 1);">قوانین انجام شده</a></li>
+          <li><a href="#" style="color: rgba(255, 255, 255, 1);">جست و جوی قانون</a></li>
 
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav>
+        </ul>
+        <form class="navbar-form navbar-left">
+          <button id="btn_creatNewJob" type="submit" class="btn btn-default">ثبت تکلیف قانونی جدید</button>
+        </form>
+
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+  </nav>
 </template>
 
 <script>
   export default{
     name: 'Navbar',
     date(){
-      return {
-
-      }
+      return {}
     }
   }
 </script>
 
 <style scoped>
 
-  nav.navbar{
+  nav.navbar {
     font-size: 14px;
     text-align: center;
-    color: rgba(255, 255, 255, 1)!important;
-     background-color: rgba(3, 169, 244, 1) !important;
-  ;
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: rgba(3, 169, 244, 1) !important;;
   }
 
-#btn_creatNewJob{
-  font-size: 15px;
-  background-color: rgba(255, 192, 6, 1);
-  border-radius: 15px;
-  text-align: left;
-  font-weight: 300;
-}
+  #btn_creatNewJob {
+    font-size: 15px;
+    background-color: rgba(255, 192, 6, 1);
+    border-radius: 15px;
+    text-align: left;
+    font-weight: 300;
+    margin-top: 5px;
+  }
+
   h4 {
     font-size: 18px;
     font-style: normal;
     text-align: center;
-    color: rgba(255, 255, 255, 1)
+    color: rgba(255, 255, 255, 1);
+    padding-left: 50px;
 
-  } h6 {
+  }
+
+  h6 {
     font-size: 10px;
     font-style: normal;
     text-align: center;
-        color: rgba(255, 255, 255, 1)  }
-  a{
-    color: rgba(255, 255, 255, 1)  }
+    color: rgba(255, 255, 255, 1)
+  }
 
+  a {
+    color: rgba(255, 255, 255, 1)
+  }
 
+  .navbar-brand {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 </style>
