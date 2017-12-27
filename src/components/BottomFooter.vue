@@ -59,13 +59,12 @@
         <h3> لینک ها</h3>
         <hr>
         <ul class="" style="text-align: right ;color: rgba(255, 255, 255, 1);">
-          <lo class=""><a href="">قوانین زمان دار </a></lo>
-          <lo class=""><a href="">قوانین زمان گذشته</a></lo>
-          <lo class=""><a href="">درباره قانون‌بان</a></lo>
-          <lo class=""><a href="">قوانین انجام شده</a></lo>
+          <lo class=""><a href="" style="color: rgba(255, 255, 255, 1);text-decoration:none">قوانین زمان دار </a></lo>
+          <lo class=""><a href=""style="color: rgba(255, 255, 255, 1);text-decoration:none">قوانین زمان گذشته</a></lo>
+          <lo class=""><a href=""style="color: rgba(255, 255, 255, 1);text-decoration:none">درباره قانون‌بان</a></lo>
+          <lo class=""><a href=""style="color: rgba(255, 255, 255, 1);text-decoration:none">قوانین انجام شده</a></lo>
         </ul>
       </div>
-
       <div class="col-md-5">
         <h3>آخرین نظرات ثبت شده در قانون ها</h3>
         <hr>

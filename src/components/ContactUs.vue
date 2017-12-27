@@ -89,6 +89,7 @@
   background-size:cover;
   padding: 7px;
   padding-bottom: 18px;
+
 }
   input{
     border-bottom: solid 2px rgba(95, 95, 95, 1)!important;
@@ -106,4 +107,5 @@
     border-color: transparent;
 
   }
+
   </style>
