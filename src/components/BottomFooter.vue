@@ -58,11 +58,11 @@
       <div class="col-md-2">
         <h3> لینک ها</h3>
         <hr>
-        <ul class="" style="text-align: right ;color: rgba(255, 255, 255, 1);">
-          <lo class=""><a href="" style="color: rgba(255, 255, 255, 1);text-decoration:none">قوانین زمان دار </a></lo>
-          <lo class=""><a href=""style="color: rgba(255, 255, 255, 1);text-decoration:none">قوانین زمان گذشته</a></lo>
-          <lo class=""><a href=""style="color: rgba(255, 255, 255, 1);text-decoration:none">درباره قانون‌بان</a></lo>
-          <lo class=""><a href=""style="color: rgba(255, 255, 255, 1);text-decoration:none">قوانین انجام شده</a></lo>
+        <ul class="" style="text-align: right ;color: rgba(255, 255, 255, 1);padding-right: 0px;  list-style-type: none;line-height: 50px">
+          <li class=""><a href="" style="color: rgba(255, 255, 255, 1);text-decoration:none;text-align: right">قوانین زمان دار </a></li>
+          <li class=""><a href=""style="color: rgba(255, 255, 255, 1);text-decoration:none">قوانین زمان گذشته</a></li>
+          <li class=""><a href=""style="color: rgba(255, 255, 255, 1);text-decoration:none">درباره قانون‌بان</a></li>
+          <li class=""><a href=""style="color: rgba(255, 255, 255, 1);text-decoration:none">قوانین انجام شده</a></li>
         </ul>
       </div>
       <div class="col-md-5">
