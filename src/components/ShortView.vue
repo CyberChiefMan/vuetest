@@ -1,5 +1,5 @@
 <template>
-  <div id="Summary" >
+  <div id="ShortView" >
     <div class="row">
       <div class="col-md-2"></div>
       <div class="col-md-2">
@@ -30,7 +30,7 @@
 
 <script>
   export default{
-    name: 'Summary',
+    name: 'ShortView',
     date(){
       return {
 
@@ -41,7 +41,7 @@
 
 <style scoped>
 
-  #Summary{
+  #ShortView{
     background-color: rgba(3, 169, 244, 1)!important;
     color:rgba(255, 255, 255, 1);
     text-align: center;

@@ -70,32 +70,40 @@
         <hr>
 
         <div>
-          <div>
-            <h5 style="text-align: right;font-weight: bold;">دسترسی باز به اطلاعات
-            </h5>
-
-            <h5 style="text-align: left;">۲۴ مهر ۱۳۹۶ </h5>
+          <div style="display: block">
+            <h5 style="float:right;font-weight: bold;">دسترسی باز به اطلاعات</h5>
+            <h5 style="float: left;">۲۴ مهر ۱۳۹۶ </h5>
           </div>
-          <p>
-            میتونه خلاصه ای از آخرین اصلاحیه یا کامنتی که کاربران درباره این قانون نوشتن رو اینجا نشون بده، در واقع
-            این بخش برای ایجاد سئو و.. در فوتر گذاشته می شود
-          </p>
+          <div style="display: block">
+            <p>
+              میتونه خلاصه ای از آخرین اصلاحیه یا کامنتی که کاربران درباره این قانون نوشتن رو اینجا نشون بده، در واقع
+              این بخش برای ایجاد سئو و.. در فوتر گذاشته می شود
+            </p>
+          </div>
+        </div>
 
-        </div>
         <div>
-          <h5 style="text-align: right;font-weight: bold;">نام قانون در این بخش نمایش داده می شود</h5>
-          <h5 style="text-align: left;">۲۴ مهر ۱۳۹۶ </h5>
-          <p>
-            میتونه خلاصه ای از آخرین اصلاحیه یا کامنتی که کاربران درباره این قانون نوشتن رو اینجا نشون بده، در واقع
-            این بخش برای ایجاد سئو و.. در فوتر گذاشته می شود </p>
+          <div style="display: block">
+            <h5 style="float:right;font-weight: bold;">نام قانون در این بخش نمایش داده می شود</h5>
+            <h5 style="float: left;">۲۳ مهر ۱۳۹۶ </h5>
+          </div>
+          <div style="display: block">
+            <p>میتونه خلاصه ای از آخرین اصلاحیه یا کامنتی که کاربران درباره این قانون نوشتن رو اینجا نشون بده، در واقع این بخش برای ایجاد سئو و.. در فوتر گذاشته می شود
+            </p>
+          </div>
         </div>
+
         <div>
-          <h5 style="text-align: right;font-weight: bold;">عنوان ها ی درج شده مختلف هستند</h5>
-          <h5 style="text-align: left;">۲۴ مهر ۱۳۹۶ </h5>
-          <p>
-            میتونه خلاصه ای از آخرین اصلاحیه یا کامنتی که کاربران درباره این قانون نوشتن رو اینجا نشون بده، در واقع
-            این بخش برای ایجاد سئو و.. در فوتر گذاشته می شود </p>
+          <div style="display: block">
+            <h5 style="float:right;font-weight: bold;">عنوان ها ی درج شده مختلف هستند</h5>
+            <h5 style="float: left;">۲۳ مهر ۱۳۹۶ </h5>
+          </div>
+          <div style="display: block">
+            <p>
+              میتونه خلاصه ای از آخرین اصلاحیه یا کامنتی که کاربران درباره این قانون نوشتن رو اینجا نشون بده، در واقع این بخش برای ایجاد سئو و.. در فوتر گذاشته می شود</p>
+          </div>
         </div>
+
       </div>
 
       <div class="col-md-1"></div>
@@ -139,12 +147,14 @@
      color: rgba(255, 255, 255, 1);
      text-align: right;
      font-weight: 300;
+     display: inline-block;
   }
     h5 {
       font-size: 14px;
       color: rgba(41, 182, 246, 1);
       text-align: right;
       font-weight: 300;
+      float: right;
 
     }
 lo{

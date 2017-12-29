@@ -1,5 +1,5 @@
 <template>
-  <nav id="navbar" class="navbar navbar-default navbar-fixed-top navbar-light">
+  <nav id="Navbar" class="navbar navbar-default navbar-fixed-top navbar-light">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -23,7 +23,7 @@
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top: 10px">
         <ul class="nav navbar-nav">
           <!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>-->
           <li><a href="#" style="color: rgba(255, 255, 255, 1);">تکالیف قانونی زمان دار</a></li>
@@ -31,12 +31,8 @@
           <li><a href="#" style="color: rgba(255, 255, 255, 1);">درباره قانون‌بان</a></li>
           <li><a href="#" style="color: rgba(255, 255, 255, 1);">قوانین انجام شده</a></li>
           <li><a href="#" style="color: rgba(255, 255, 255, 1);">جست و جوی قانون</a></li>
-
         </ul>
-        <form class="navbar-form navbar-left">
-          <button id="btn_creatNewJob" type="submit" class="btn btn-default">ثبت تکلیف قانونی جدید</button>
-        </form>
-
+        <button id="btn_creatNewJob" @click="" class="btn btn-default">ثبت تکلیف قانونی جدید</button>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
   </nav>
@@ -45,9 +41,10 @@
 <script>
   export default{
     name: 'Navbar',
-    date(){
+    data(){
       return {}
-    }
+    },
+    methods: {}
   }
 </script>
 
@@ -57,7 +54,8 @@
     font-size: 14px;
     text-align: center;
     color: rgba(255, 255, 255, 1) !important;
-    background-color: rgba(3, 169, 244, 1) !important;;
+    background-color: rgba(3, 169, 244, 1) !important;
+
   }
 
   #btn_creatNewJob {
@@ -66,7 +64,7 @@
     border-radius: 15px;
     text-align: left;
     font-weight: 300;
-    margin-top: 5px;
+    margin-top: 10px;
   }
 
   h4 {
@@ -90,9 +88,7 @@
   }
 
   .navbar-brand {
-    padding-bottom: 0 !important;
-    padding-top: 0 !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding: 0 !important;
+
   }
 </style>
